@@ -1,0 +1,83 @@
+@media (max-width: 480px) {
+img {
+    margin-left: -470px;
+   
+}
+.img-fluid {
+    width: 375px;
+    margin-left: -1px;
+   
+}
+.video-grid {
+    width: 779px;
+   
+}
+.item-entry .product-item {
+    width: 141px;
+    height: 224px;
+   
+}
+.block-6 img {
+    width: 218px;
+    
+}
+.site-footer .footer-heading {
+    margin-left: 6px;
+    font-size: 15px;
+ 
+}
+
+
+.adopet_img img {
+    width: 372px;
+    margin-top: -32px;
+    margin-left: 0px;
+}
+
+
+.banner_image img {
+    width: 808px;
+    margin-top: 67px;
+    margin-left: -122px;
+   
+}
+
+.title-section h2 {
+    font-size: 20px;
+    padding-left: 23px;
+    margin-top: -111px;
+ 
+}
+
+.adopt_text p {
+    width: 323px;
+    margin-top: 249px;
+    font-size: 20px;
+    margin-left: -381px;
+    font-weight: 700;
+    color: black;
+}
+
+
+.help_text h1 {
+   
+    margin-top: -12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
