@@ -1081,12 +1081,639 @@ a {
 
 
 
+.we_img img {
+    width: 1924px;
+    height: 487px;
+    margin-top: 3px;
+    margin-left: 0px;
+}
+
+
+
+.we_h2 h2 {
+    font-size: 33px;
+    font-weight: 700;
+    color: black;
+    margin-left: 849px;
+    margin-top: 20px;
+}
+.we_p p{
+  width: 200px;
+  margin-left: 849px;
+  margin-top: 10px;
+  color: black;
+  font-weight: 400;
+}
+
+.we_p p {
+    font-size: 15px;
+    width: 336px;
+    margin-left: 772px;
+    margin-top: 10px;
+    color: black;
+    font-weight: 400;
+}
+
+
+
+
+/* ---------- Vision Section ---------- */
+.vision-section {
+  padding: 60px 20px;
+}
+
+.vision-container {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.vision-video iframe {
+  width: 100%;
+  height: 280px;
+}
+
+.vision-video {
+  flex: 1;
+}
+
+.vision-text {
+  flex: 1;
+}
+
+.vision-text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* ---------- Mission Section ---------- */
+.mission-section {
+  background: url("mission.jpg") center/cover no-repeat;
+  height: 300px;
+  position: relative;
+}
+
+.mission-overlay {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+}
+
+.mission-overlay h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* ---------- Impact Section ---------- */
+.impact-section {
+  background: #48801D;
+  text-align: center;
+  padding: 60px 20px;
+  color: #fff;
+}
+
+.impact-items {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.impact-item h3 {
+  font-size: 36px;
+}
+
+.impact-btn {
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ---------- Responsive ---------- */
 
 
 
 
 
 
+
+
+
+.landscaping_banner img {
+    width: 945px;
+    height: 454px;
+    margin-left: 405px;
+}
+
+
+
+
+
+
+
+
+.service-section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.service-row {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 60px 0;
+}
+
+.service-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.service-img {
+  flex: 1;
+}
+
+.service-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.service-text {
+  flex: 1;
+}
+
+.service-text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.service-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #333;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #000;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .service-row,
+  .service-row.reverse {
+    flex-direction: column;
+  }
+
+  .service-text h2 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-text h2 {
+    font-size: 22px;
+  }
+
+  .service-text p {
+    font-size: 15px;
+  }
+}
+
+.hydroponics_img img{
+  width: 700px;
+  height: 300px;
+}
+
+.hydroponics_img img {
+    width: 955px;
+    margin-left: 406px;
+    height: 294px;
+}
+
+
+.hydro-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 70px 20px;
+}
+
+.hydro-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.hydro-header h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.hydro-header p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.hydro-header span {
+  color: #8cc63f;
+  font-weight: 700;
+}
+
+.hydro-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hydro-image {
+  flex: 1;
+}
+
+.hydro-image img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.hydro-features {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature h4 {
+  font-size: 16px;
+  margin: 15px 0 10px;
+}
+
+.feature p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  color: #fff;
+  margin: auto;
+}
+
+.icon.blue { background: #1e88e5; }
+.icon.orange { background: #fb8c00; }
+.icon.green { background: #8cc63f; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 992px) {
+  .hydro-content {
+    flex-direction: column;
+  }
+
+  .hydro-features {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hydro-header h2 {
+    font-size: 24px;
+  }
+}
+
+
+.desk-plant {
+  width: 100%;
+  padding: 80px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.desk-plant h1 {
+  font-size: 48px;
+  letter-spacing: 4px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.sub-title {
+  font-size: 16px;
+  color: #7a7a7a;
+  margin-bottom: 35px;
+}
+
+.description {
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #8a8a8a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .desk-plant h1 {
+    font-size: 34px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
+
+.banner {
+  width: 100%;
+  height: 300px;        /* তুমি যেই height চাও */
+  overflow: hidden;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* ⭐ magic line */
+}
+
+.garden-section {
+  width: 100%;
+  background-color: #555;   /* dark gray background */
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.garden-section h2 {
+  color: #7bc043;           /* green title */
+  font-size: 42px;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+.garden-section p {
+  max-width: 900px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+
+
+
+.academy-section {
+  width: 100%;
+  padding: 80px 20px;
+  background-color: #ffffff;
+}
+
+.academy-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+/* Image */
+.academy-image {
+  flex: 1;
+}
+
+.academy-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Content */
+.academy-content {
+  flex: 1;
+}
+
+.academy-content h2 {
+  color: #5a8f3b;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.academy-content p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+
+
+.Contact_all h3{
+  font-size: 30px;
+  font-weight: 400;
+  color: black;
+
+margin-top: 20px;
+}
+
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+Full image
+.home_banner img {
+  position: absolute;
+  inset: 0;
+  width: 500px;
+  height: 300px;
+  object-fit: cover;   /* ⭐ পুরো জায়গা জুড়ে */
+  z-index: 1;
+}
+
+/* Text overlay */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    margin-top: -214px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.site-section {
+    padding: 1em 0;
+}
+
+/* Text styles */
+.hero-title {
+  font-size: 60px;
+  color: white;
+  font-weight: 700;
+  margin: 0;
+  animation: slideUp 1.2s ease forwards;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #ffffff;
+  animation: fadeIn 1.8s ease forwards;
+}
+
+/* Colors */
+.green {
+  color: #2ecc71;
+}
+
+.life {
+  color: #ff3b3b;
+}
+
+/* Animations */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+
+
+.home_banner img {
+    position: absolute;
+    inset: 0;
+    width: 1924px;
+    height: 454px;
+    object-fit: cover;
+    z-index: 1;
+} 
+
+.main_logo img{
+  width: 80px;
+  height: 80px;
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HERO SECTION */
+.hero-section {
+  width: 100%;
+  height: 420px; /* picture er moto fixed height */
+  background-image: url("../images/homebanner.png"); /* ekhane tomer image path */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* CONTENT */
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 25px;
+}
+.hero-content {
+    position: relative;
+    z-index: 2;
+    margin-top: -137px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #111;
+  margin-bottom: 30px;
+}
+
+/* TEXT COLORS */
+.green {
+  color: #2e7d32;
+}
+
+.red {
+  color: #ff0000;
+}
+
+/* BUTTONS */
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 26px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: 0.3s ease;
+}
+
+/* PRIMARY BUTTON */
+.btn.primary {
+  background-color: #2e7d32;
+  color: #fff;
+}
+
+/* OUTLINE BUTTON */
+.btn.outline {
+  border: 2px solid #2e7d32;
+  color: #2e7d32;
+  background: transparent;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
 
 
 
